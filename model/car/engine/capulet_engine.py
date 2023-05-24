@@ -4,7 +4,7 @@ from model.car.engine.engine import Engine
 
 
 class CapuletEngine(Engine):
-    def __init__(self, last_service_mileage, current_mileage) -> None:
+    def __init__(self, last_service_mileage: int, current_mileage: int) -> None:
         super().__init__()
         self.__current_mileage = current_mileage
         self.__last_service_mileage = last_service_mileage

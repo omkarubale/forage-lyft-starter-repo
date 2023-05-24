@@ -4,7 +4,7 @@ from model.car.engine.engine import Engine
 
 
 class SternmanEngine(Engine):
-    def __init__(self, warning_light_on) -> None:
+    def __init__(self, warning_light_on: bool) -> None:
         super().__init__()
         self.__warning_light_on = warning_light_on
 
