@@ -106,7 +106,7 @@ class TestAbstractBattery(ABC, unittest.TestCase):
 class TestSpindlerBattery(TestAbstractBattery):
     # have to test: current_date - last_service_date > 2 years -> true
     def get_threshold_year(self):
-        return 2
+        return 3
 
 
 class TestNubbinBattery(TestAbstractBattery):
