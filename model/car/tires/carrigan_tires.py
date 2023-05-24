@@ -11,7 +11,7 @@ class CarriganTires(Tires):
 
     def needs_service(self) -> bool:
         for tire in self.__tires:
-            if tire > 0.9:
+            if tire >= 0.9:
                 return True
 
         return False
