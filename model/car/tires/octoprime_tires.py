@@ -15,7 +15,7 @@ class OctoprimeTires(Tires):
         for tire in self.__tires:
             total_degradation += tire
 
-        if total_degradation >= 3:
+        if total_degradation >= 3.0:
             return True
 
         return False
