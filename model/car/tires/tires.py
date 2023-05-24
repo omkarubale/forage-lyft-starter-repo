@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Tires():
+class Tires(ABC):
     def __init__(self) -> None:
         pass
 
